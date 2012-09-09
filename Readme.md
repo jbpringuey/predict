@@ -1,5 +1,6 @@
 #predict
 
+[![Build Status](https://secure.travis-ci.org/jbpringuey/predict.png)](http://travis-ci.org/jbpringuey/predict)
 
 A super simple prediction module that only implement linear regression.
 
