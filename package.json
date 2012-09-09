@@ -1,0 +1,23 @@
+{
+  "author": "jean-baptiste pringuey <jbpringuey@gmail.com> (http://jbpringuey.herokuapp.com)",
+  "name": "predict",
+  "description": "Package to perform simple prediction",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbpringuey/predict.git"
+  },
+  "main": "./lib/main.js",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+     "mocha": "",
+     "should": ""
+    },
+  "optionalDependencies": {}
+}
