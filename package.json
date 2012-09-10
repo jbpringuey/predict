@@ -2,7 +2,7 @@
   "author": "jean-baptiste pringuey <jbpringuey@gmail.com> (http://jbpringuey.herokuapp.com)",
   "name": "predict",
   "description": "Package to perform simple prediction",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/jbpringuey/predict.git"
