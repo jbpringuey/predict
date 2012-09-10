@@ -3,8 +3,10 @@
 [![Build Status](https://secure.travis-ci.org/jbpringuey/predict.png)](http://travis-ci.org/jbpringuey/predict)
 
 A simple prediction module that implements:
- Simple linear regression for basic forecasting http://en.wikipedia.org/wiki/Simple_linear_regression
- Moving average to predict next value and remove noize http://en.wikipedia.org/wiki/Moving_average
+
+Simple linear regression for basic forecasting http://en.wikipedia.org/wiki/Simple_linear_regression
+
+Moving average to predict next value and remove noize http://en.wikipedia.org/wiki/Moving_average
 
 ## Installation
 
