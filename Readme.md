@@ -26,7 +26,7 @@ Moving average to predict next value and remove noize http://en.wikipedia.org/wi
 	var ma = predict.movingAverage();
     ma.pushValues([2,4,6,8,10]);
     //predict next value based on average 2+4+6+8+10 = 30 and 30/5 = 6
-    var result ma.predictNextValue();
+    var result = ma.predictNextValue();
     //result will be 6
 
 	//perform moving average with a buffer of size 2 
