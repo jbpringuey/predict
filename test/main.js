@@ -30,6 +30,8 @@ describe('predict package', function() {
             console.log(result);
             result.should.eql([2,3,5,7,9]);
             ma.predictNextValue().should.eql(9);
+            ma.pushValues([20]);
+            ma.predictNextValue().should.eql(15);
         });
     });
 });
