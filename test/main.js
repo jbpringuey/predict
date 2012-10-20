@@ -27,7 +27,6 @@ describe('predict package', function() {
             var ma = predict.movingAverage(2);
             ma.pushValues([2,4,6,8,10]);
             var result = ma.averageArray;
-            console.log(result);
             result.should.eql([2,3,5,7,9]);
             ma.predictNextValue().should.eql(9);
             ma.pushValues([20]);

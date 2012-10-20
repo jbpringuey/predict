@@ -1,0 +1,131 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.1.0
+info using node@v0.6.6
+verbose config file /Users/jbpringuey/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /Users/jbpringuey/Desktop/personal/nodepredict/package.json
+verbose loadDefaults predict@0.0.3
+info prepublish predict@0.0.3
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults predict@0.0.3
+verbose pack /Users/jbpringuey/Desktop/personal/nodepredict
+verbose pack /Users/jbpringuey/Desktop/personal/nodepredict /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/tmp.tgz
+silly makeList /Users/jbpringuey/Desktop/personal/nodepredict
+silly dir, dirLen [ '/Users/jbpringuey/Desktop/personal/nodepredict', 47 ]
+verbose tarball /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/tmp.tgz
+verbose parent /Users/jbpringuey/Desktop/personal/nodepredict
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm'
+verbose mkdir done: /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/.npmignore
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/.travis.yml
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/package.json
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/Readme.md
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/lib
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/lib/main.js
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/test
+silly asyncMap in gTP /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict/test/main.js
+verbose gunzed /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict
+verbose rm'ed /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package
+verbose renamed [ '/var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/___package.npm/nodepredict',
+verbose renamed   '/var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package' ]
+verbose caching /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package/package.json
+verbose loadDefaults predict@0.0.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package/package.json
+verbose pack /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package
+verbose pack /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package /Users/jbpringuey/.npm/predict/0.0.3/package.tgz
+silly makeList /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package
+silly dir, dirLen [ '/var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/jbpringuey/.npm/predict/0.0.3/package.tgz
+verbose parent /var/folders/sO/sOixQ-jQH4iMEBs9fnybaE+++TI/-Tmp-/npm-1348672760706/1348672760706-0.182994881644845/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/jbpringuey/.npm/predict/0.0.3/___package.npm'
+verbose mkdir done: /Users/jbpringuey/.npm/predict/0.0.3/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/jbpringuey/.npm/predict/0.0.3/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/package.json
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/Readme.md
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/lib
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/lib/main.js
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/test
+silly asyncMap in gTP /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package/test/main.js
+verbose gunzed /Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package
+verbose rm'ed /Users/jbpringuey/.npm/predict/0.0.3/package
+verbose renamed [ '/Users/jbpringuey/.npm/predict/0.0.3/___package.npm/package',
+verbose renamed   '/Users/jbpringuey/.npm/predict/0.0.3/package' ]
+verbose caching /Users/jbpringuey/.npm/predict/0.0.3/package/package.json
+verbose loadDefaults predict@0.0.3
+silly updated sha bytes 2265
+info shasum c69b58d6e74a133b129b0aadf21a2191e0931404
+info shasum /Users/jbpringuey/.npm/predict/0.0.3/package.tgz
+verbose from cache /Users/jbpringuey/.npm/predict/0.0.3/package/package.json
+verbose chmod /Users/jbpringuey/.npm/predict/0.0.3/package.tgz 644
+verbose chown [ '/Users/jbpringuey/.npm/predict/0.0.3/package.tgz', 501, 20 ]
+silly publish { author: 
+silly publish    { name: 'jean-baptiste pringuey',
+silly publish      email: 'jbpringuey@gmail.com',
+silly publish      url: 'http://jbpringuey.herokuapp.com' },
+silly publish   name: 'predict',
+silly publish   description: 'Package to perform basic predictions based on moving average, linear regression.',
+silly publish   version: '0.0.3',
+silly publish   repository: { type: 'git', url: 'git://github.com/jbpringuey/predict.git' },
+silly publish   main: './lib/main.js',
+silly publish   engines: { node: '~0.6.6' },
+silly publish   scripts: { test: 'mocha test/*.js' },
+silly publish   dependencies: {},
+silly publish   devDependencies: { mocha: '', should: '' },
+silly publish   optionalDependencies: {},
+silly publish   _npmUser: { name: 'jbpringuey', email: 'jbpringuey@modeln.com' },
+silly publish   _id: 'predict@0.0.3',
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.0',
+silly publish   _nodeVersion: 'v0.6.6',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'c69b58d6e74a133b129b0aadf21a2191e0931404',
+silly publish      tarball: 'http://registry.npmjs.org/predict/-/predict-0.0.3.tgz' } }
+verbose raw, before any munging predict
+verbose url resolving [ 'https://registry.npmjs.org/', './predict' ]
+verbose url resolved https://registry.npmjs.org/predict
+http PUT https://registry.npmjs.org/predict
+http 401 https://registry.npmjs.org/predict
+ERR! Failed PUT response 401
+ERR! Error: unauthorized Name or password is incorrect.: predict
+ERR!     at Request._callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:182:12)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:109:22)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:481:18)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:442:16)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1124:24)
+ERR!     at CleartextStream._push (tls.js:363:27)
+ERR!     at SecurePair.cycle (tls.js:685:20)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/jbpringuey/Desktop/personal/nodepredict
+ERR! node -v v0.6.6
+ERR! npm -v 1.1.0
+ERR! message unauthorized Name or password is incorrect.: predict
+verbose exit [ 1, true ]
